@@ -32,9 +32,9 @@ max_count = 0
 
 for char in text:
     if char == "Р":
-    count += 1
+        count += 1
     else:
-    count = 0
+        count = 0
     if max_count < count:
-    max_count = count
-    print(max_count)
+        max_count = count
+print(max_count)
